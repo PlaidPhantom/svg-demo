@@ -1,0 +1,21 @@
+{
+  "name": "svg-demo",
+  "description": "Demo of using SVGs",
+  "main": "index.js",
+  "authors": [
+    "Sam Shores <plaidphantom@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PlaidPhantom/svg-demo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "base": "^3.2.2"
+  }
+}

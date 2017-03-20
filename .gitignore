@@ -1,0 +1,11 @@
+# external packages
+
+bower_components/*
+node_modules/*
+
+# python stuff
+__pycache__/
+*.pyc
+
+# virtual environment
+venv/*
