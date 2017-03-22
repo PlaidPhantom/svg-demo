@@ -1,3 +1,22 @@
+* {
+	color: inherit;
+	fill: inherit;
+}
+
+body {
+	color: #444;
+	fill: #444;
+}
+
+svg * {
+	fill: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #666;
+	fill:  #666;
+}
+
 nav {
 	display: block;
 	width: 100%;
@@ -18,6 +37,87 @@ nav > a:hover {
 }
 
 main {
-	width: 80vw;
+	width: 90vw;
 	margin: 0 auto;
+}
+
+article {
+	display: inline-block;
+	width: 30em;
+	margin: 0 5vw;
+	vertical-align: top;
+}
+
+img {
+	height: 1em;
+	width:  1em;
+	vertical-align: text-bottom;
+}
+
+svg {
+	height: 1em;
+	width: 1em;
+	vertical-align: text-bottom;
+}
+
+#symbols {
+	display: none;
+}
+
+/* animation fun */
+
+
+article.new > h2::after {
+	content: "New!";
+	background-color: red;
+	font-size: .8rem;
+	border-radius: .5em;
+	height: 1em;
+	color: white;
+	padding: 0 .5em;
+}
+
+@keyframes bounce {
+	0% { transform: translate(0, 0); }
+	15% { transform: translate(0, 2px) scale(1.1, .8); }
+	20% { transform: translate(0, 2px) scale(1.1, .8); }
+	25% { transform: translate(0, -10px) scale(.8, 1.1); }
+	40% { transform: translate(0, 0); }
+	100% { transform: translate(0, 0); }
+}
+
+@keyframes hang1 {
+	0% { transform: translate(0, 0); }
+	25% { transform: translate(0, 0); }
+	35% { transform: translate(0, -100px); }
+	40% { transform: translate(0, -100px); }
+	45% { transform: translate(0, 0); }
+	100% { transform: translate(0, 0); }
+}
+
+@keyframes hang2 {
+	0% { transform: translate(0, 0); }
+	25% { transform: translate(0, 0); }
+	35% { transform: translate(0, -100px); }
+	40% { transform: translate(0, -100px); }
+	50% { transform: translate(0, 0); }
+	100% { transform: translate(0, 0); }
+}
+
+@keyframes hang3 {
+	0% { transform: translate(0, 0); }
+	25% { transform: translate(0, 0); }
+	35% { transform: translate(0, -100px); }
+	40% { transform: translate(0, -100px); }
+	55% { transform: translate(0, 0); }
+	100% { transform: translate(0, 0); }
+}
+
+article.new > h2 > svg {
+	animation-name: bounce;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+	--animation1: 1.5s infinite hang1;
+	--animation2: 1.5s infinite hang2;
+	--animation3: 1.5s infinite hang3;
 }

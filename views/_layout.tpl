@@ -14,7 +14,9 @@
 		<a href="/">Home</a>
 		<a href="/font">Icon Font</a>
 		<a href="/extsvg">External SVG</a>
-		<a href="/intsvg">Internal SVG</a>
+		<a href="/intsvg">Inline SVG</a>
+		<a href="/usesvg">SVG defs &amp; use</a>
+		<a href="/animate">fun stuff</a>
 	</nav>
 
 	<main>

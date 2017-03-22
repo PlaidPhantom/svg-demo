@@ -18,9 +18,13 @@ def css_fa():
 def css():
     return static_file('site.css', root='.')
 
-@get('/fonts/<filename>')
+@get('/fonts/<filename:path>')
 def fonts(filename):
     return static_file(filename, root='bower_components/font-awesome/fonts')
+
+@get('/images/<filename:path>')
+def img(filename):
+    return static_file(filename, root='images')
 
 @get('/js')
 def js():
@@ -49,6 +53,11 @@ def externalsvg():
 @get('/usesvg')
 @view('usesvg')
 def usesvg():
+    return {}
+
+@get('/animate')
+@view('animate')
+def animate():
     return {}
 
 run(server="waitress", port=8080, debug=debug, reloader=debug)
