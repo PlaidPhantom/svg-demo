@@ -1,0 +1,9 @@
+nav {
+	display: table;
+	background-color: #aaa;
+}
+
+nav > a {
+	display: table-cell;
+	padding:  1em;
+}

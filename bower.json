@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "base": "^3.2.2"
+    "base": "^3.2.2",
+    "font-awesome": "fontawesome#^4.7.0"
   }
 }
