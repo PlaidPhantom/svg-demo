@@ -1,14 +1,8 @@
-% rebase('_layout', title='SVG Symbols')
-
-<svg id="symbols">
-	<symbol id="file-text-o" viewBox="0 0 1792 1792">
-		<path d="M1596 380q28 28 48 76t20 88v1152q0 40-28 68t-68 28h-1344q-40 0-68-28t-28-68v-1600q0-40 28-68t68-28h896q40 0 88 20t76 48zm-444-244v376h376q-10-29-22-41l-313-313q-12-12-41-22zm384 1528v-1024h-416q-40 0-68-28t-28-68v-416h-768v1536h1280zm-1024-864q0-14 9-23t23-9h704q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64zm736 224q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h704zm0 256q14 0 23 9t9 23v64q0 14-9 23t-23 9h-704q-14 0-23-9t-9-23v-64q0-14 9-23t23-9h704z"/>
-	</symbol>
-</svg>
+% rebase('_layout', title='External Symbols')
 
 <article>
 	<h2>
-		<svg><use xlink:href="#file-text-o" /></svg>
+		<svg><use xlink:href="/images/symbols.svg#file-text-o" /></svg>
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 	</h2>
 	<p>
@@ -18,7 +12,7 @@
 
 <article>
 	<h2>
-		<svg><use xlink:href="#file-text-o" /></svg>
+		<svg><use xlink:href="/images/symbols.svg#file-text-o" /></svg>
 		Aliquam ut tellus at nunc malesuada varius.
 	</h2>
 	<p>
@@ -28,7 +22,7 @@
 
 <article>
 	<h2>
-		<svg><use xlink:href="#file-text-o" /></svg>
+		<svg><use xlink:href="/images/symbols.svg#file-text-o" /></svg>
 		Nam sit amet mi velit.
 	</h2>
 	<p>
@@ -38,7 +32,7 @@
 
 <article>
 	<h2>
-		<svg><use xlink:href="#file-text-o" /></svg>
+		<svg><use xlink:href="/images/symbols.svg#file-text-o" /></svg>
 		Nulla convallis tincidunt tortor quis facilisis.
 	</h2>
 	<p>

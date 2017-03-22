@@ -55,6 +55,11 @@ def externalsvg():
 def usesvg():
     return {}
 
+@get('/useext')
+@view('useext')
+def usesvg():
+    return {}
+
 @get('/animate')
 @view('animate')
 def animate():

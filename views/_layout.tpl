@@ -15,8 +15,9 @@
 		<a href="/font">Icon Font</a>
 		<a href="/extsvg">External SVG</a>
 		<a href="/intsvg">Inline SVG</a>
-		<a href="/usesvg">SVG defs &amp; use</a>
-		<a href="/animate">fun stuff</a>
+		<a href="/usesvg">SVG Symbols</a>
+		<a href="/useext">External Symbol</a>
+		<a href="/animate">Increased Fun</a>
 	</nav>
 
 	<main>
