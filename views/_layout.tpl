@@ -16,7 +16,7 @@
 		<a href="/external-svg">External SVG</a>
 		<a href="/inline-svg">Inline SVG</a>
 		<a href="/inline-symbols">SVG Symbols</a>
-		<a href="/use-external-svg">External Symbol</a>
+		<a href="/external-symbols">External Symbol</a>
 		<a href="/animation">Increased Fun</a>
 	</nav>
 

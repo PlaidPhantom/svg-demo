@@ -13,7 +13,7 @@ PYTHON=python3
 endif
 
 
-.PHONY: help pip-install pip-uninstall configure clean run stop
+.PHONY: help pip-install pip-uninstall configure clean run debug stop
 
 .DEFAULT_GOAL := help
 
