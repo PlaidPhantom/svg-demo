@@ -6,7 +6,7 @@ JS_DIR=js
 VENV_ACTIVATE=./$(VENV_NAME)/*/activate
 
 # if `python` command is Python 3, use that, otherwise attempt to use `python3`
-ifeq ($(shell python --version | sed -e 's/Python\s\([0-9]\).*/\1/'),3)
+ifeq ($(shell python --version 2>&1 | sed -e 's/Python\s\([0-9]\).*/\1/'),3)
 PYTHON=python
 else
 PYTHON=python3
