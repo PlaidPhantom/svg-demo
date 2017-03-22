@@ -5,8 +5,8 @@
 
 	<link rel="stylesheet" href="/css/base" />
 	<link rel="stylesheet" href="/css/main" />
-	%if defined('head')
-		{{!head() }}
+	%if defined('head'):
+		% head()
 	% end
 </head>
 <body>
@@ -16,6 +16,9 @@
 		<a href="/extsvg">External SVG</a>
 		<a href="/intsvg">Internal SVG</a>
 	</nav>
-	{{!base }}
+
+	<main>
+		{{!base }}
+	</main>
 </body>
 </html>

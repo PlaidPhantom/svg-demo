@@ -39,8 +39,11 @@ pip-uninstall:  ## remove a package from the python virtual environment. usage: 
 	# usage: make pip-uninstall PKG=<package name>
 	source $(VENV_ACTIVATE) && pip uninstall $(PKG) && pip freeze > requirements.txt && deactivate
 
-run: ## start webserver
+run: ## start webserver (production)
 	./site.sh & echo $$! > site.pid
+
+debug: ## start webserver (debugging)
+	./site.sh --debug & echo $$! > site.pid
 
 stop: ## stop webserver
 	kill $$(cat *.pid) && rm *.pid

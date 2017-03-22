@@ -1,9 +1,23 @@
 nav {
-	display: table;
-	background-color: #aaa;
+	display: block;
+	width: 100%;
+	background-color: #ccc;
+	margin-bottom: 2rem;
 }
 
 nav > a {
 	display: table-cell;
 	padding:  1em;
+	text-align: center;
+	width: 150px;
+	text-decoration: none;
+}
+
+nav > a:hover {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+main {
+	width: 80vw;
+	margin: 0 auto;
 }
