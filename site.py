@@ -35,33 +35,33 @@ def js():
 def index():
     return {}
 
-@get('/font')
-@view('font')
+@get('/icon-font')
+@view('icon-font')
 def withfonts():
     return {}
 
-@get('/extsvg')
-@view('extsvg')
+@get('/external-svg')
+@view('external-svg')
 def externalsvg():
     return {}
 
-@get('/intsvg')
-@view('intsvg')
+@get('/inline-svg')
+@view('inline-svg')
 def externalsvg():
     return {}
 
-@get('/usesvg')
-@view('usesvg')
+@get('/inline-symbols')
+@view('inline-symbols')
 def usesvg():
     return {}
 
-@get('/useext')
-@view('useext')
+@get('/external-symbols')
+@view('external-symbols')
 def usesvg():
     return {}
 
-@get('/animate')
-@view('animate')
+@get('/animation')
+@view('animation')
 def animate():
     return {}
 

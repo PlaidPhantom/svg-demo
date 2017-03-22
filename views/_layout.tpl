@@ -12,12 +12,12 @@
 <body>
 	<nav>
 		<a href="/">Home</a>
-		<a href="/font">Icon Font</a>
-		<a href="/extsvg">External SVG</a>
-		<a href="/intsvg">Inline SVG</a>
-		<a href="/usesvg">SVG Symbols</a>
-		<a href="/useext">External Symbol</a>
-		<a href="/animate">Increased Fun</a>
+		<a href="/icon-font">Icon Font</a>
+		<a href="/external-svg">External SVG</a>
+		<a href="/inline-svg">Inline SVG</a>
+		<a href="/inline-symbols">SVG Symbols</a>
+		<a href="/use-external-svg">External Symbol</a>
+		<a href="/animation">Increased Fun</a>
 	</nav>
 
 	<main>
